@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 SPEED_OF_SOUND = 343
 MAX_ROOM_LENGTH = 15
 
-fs, signal = wavfile.read('data/uku01.wav')
+fs, signal = wavfile.read('data/gen01.wav')
 
 
 if signal[:,0] is not None:
